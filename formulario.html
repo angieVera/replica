@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Angie vera</title>
+</head>
+
+<body>
+    <h1 >OnRide Bikes</h1>
+    <link rel="stylesheet" href="CSS.css">
+
+
+    
+
+
+    <picture class="ima" id="ima">
+        <source media="(min-width:650px)" srcset="ima/bi.jpg">
+        <source media="(min-width:465px)" srcset="ima/bi.jpg">
+        <img src="ima/bi.jpg" alt="bi" >
+
+    </picture>
+
+    <div class="grid-container" id="ima">
+        <p> Ahora el asunto es en serio: la bicicleta debe posicionarse en las ciudades como uno de los principales
+            medio de
+            transporte. En las actuales circunstancias, el distanciamiento social es el nuevo mandamiento capital urbano
+            junto a la movilidad sostenible. La bicicleta permite cumplir ambas.
+        </p><br>
+    </div>
+
+    <div class="grid-container">
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>INFORMACION PERSONAL</legend>
+            <label class="l" id="identi" for="fname">Primer nombre:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label class="l" for="lname">Segundo Nombre:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label class="l" for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label class="l" for="birthday">Cumpleaños:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form><br><br>
+</div>
+    <form>
+
+<div  class="item1">
+        <h2>Saber de ti..</h2>
+        <form>
+            Hobbies<input type="email" required placeholder="Digita tu hobbie"><br>
+            comida Favorita<input type="tel" required placeholder="Digita tu comida"><br>
+            url de facebook<input type="url" required placeholder="URL" ><br>
+            color Favorito<input type="color"><br>
+            felicidad <input type="range" min="10" max="50">
+
+        </form>
+</div>
+
+
+        <select>
+            <option value="Capricornio">Capricornio</option>
+            <option value="Sagitario">Sagitario</option>
+            <option value="cancer">cancer</option>
+        </select><BR>
+
+
+        <select>
+            <optgroup label="carros alemanes">
+                <option value="Mercedes">mercedes</option>
+                <option value="audi">audi</option>
+
+            <optgroup label="carros inglese">
+                <option value="mini">mini</option>
+                <option value="otro">otro</option>
+            </optgroup>
+        </select><br>
+
+        <input type="submit" value="Enviar Todo">
+        <br>
+        <br>
+        <form action="/action_page.php">
+            <label for="bdaymonth">Fecha de Nacimiento (mes y año):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+            <input type="submit">
+        </form>
+
+        <form action="../../form-result.php" method="post" target="_blank">
+
+            <p>
+
+                Coloca el url de tu pagina
+                Sitio web: <input type="url" name="sitioweb" placeholder="¿Tienes un sitio web?">
+
+                <input type="submit" value="Enviar datos">
+
+            </p>
+
+
+
+
+        </form>
+    </form>
+</body>
